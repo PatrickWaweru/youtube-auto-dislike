@@ -1,30 +1,30 @@
 {
 	"appName": {
-		"message": "YouTube Auto Like",
-		"description": "Nome da Aplicação"
+		"message": "Descurtir automaticamente do YouTube",
+		"description": "Nome do aplicativo"
 	},
 	"appDesc": {
-		"message": "\"Automagicamente dá \"like\" em vídeos do YouTube de seus criadores de conteúdo favoritos.",
-		"description": "Descrição da aplicação"
+		"message": "Não gosta automaticamente de vídeos do YouTube de seus criadores de conteúdo menos favoritos.",
+		"description": "Descrição do aplicativo"
 	},
 	"appDescDetail": {
-		"message": "Tudo que esta extensão faz é \"martelar\" o botão de \"like\" sempre que você assiste à algum vídeo de um canal que você esteja inscrito. Sem nenhum esforço. Sem necessidade de autenticar. Opcionalmente, você pode de forma automática dar \"like\" em TODOS os vídeos. Porque? Eu não sei. Divirta-se. Sinta-se livre para sugerir novas funcionalidades ou contribuir:",
-		"description": "Descrição detalhada para a página da loja \"web\""
+		"message": "Tudo o que esta extensão faz é apertar o botão de não gostar sempre que você assiste a um vídeo de um canal inscrito. Não é necessário nenhum esforço. Não é necessário autenticar. Alternativamente, você pode curtir automaticamente TODOS os vídeos. Por quê? Não sei. Enlouqueça. Sinta-se à vontade para sugerir novos recursos ou contribuir:",
+		"description": "Detalhe da descrição da página da loja virtual"
 	},
 	"optLikeSub": {
-		"message": "\"Like\" só vídeos da lista de canais que estou inscrito"
+		"message": "Descurtir apenas vídeos de canais inscritos"
 	},
 	"optLikeAll": {
-		"message": "\"Like\" em todos os vídeos"
+		"message": "Não gosto de todos os vídeos"
 	},
 	"optLikeNone": {
 		"message": "Desativar"
 	},
 	"optLikeInstant": {
-		"message": "\"Like\" Instantâneo"
+		"message": "Descurtir Instantaneamente"
 	},
 	"optLikeCustom": {
-		"message": "Cronômetro personalizado"
+		"message": "Temporizador personalizado"
 	},
 	"optLikePercentage": {
 		"message": "Porcentagem"
@@ -33,30 +33,30 @@
 		"message": "Minutos"
 	},
 	"optLikeRandom": {
-		"message": "Cronômetro aleatório"
+		"message": "Temporizador aleatório"
 	},
 	"optUseList": {
 		"message": "Usar lista"
 	},
 	"optBlackList": {
-		"message": "Modo Lista de Bloqueados"
+		"message": "Modo de lista de bloqueio"
 	},
 	"optWhiteList": {
-		"message": "Modo Lista de Permitidos"
+		"message": "Permitir modo de lista"
 	},
 	"optWhiteListWarning": {
-		"message": "⚠️ lista está vazia, nenhum \"Like\" será dado"
+		"message": "⚠️ a lista está vazia, nada será descurtido"
 	},
 	"linkDonate": {
 		"message": "Doar"
 	},
 	"linkContribute": {
-		"message": "Contribuir"
+		"message": "Contribua"
 	},
 	"mngName": {
-		"message": "Nome do Canal"
+		"message": "Nome do canal"
 	},
 	"mngURL": {
-		"message": "URL do Canal"
+		"message": "URL do canal"
 	}
 }

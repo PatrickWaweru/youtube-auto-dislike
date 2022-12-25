@@ -1,25 +1,21 @@
 {
   "appName": {
-    "message": "YouTube Auto Like",
-    "description": "Namnet på applikationen"
-  },
-  "appNamePart2": {
-    "message": "Auto Like",
-    "description": "Namnet på applikationen efter 'YouTube'"
+    "message": "YouTube Auto DisGilla",
+    "description": "Appens namn"
   },
   "appDesc": {
-    "message": "Gillar automagiskt YouTube-videos från dina favoriterkanaler.",
+    "message": "Gilla automatiskt YouTube-videor från dina minst favoritinnehållsskapare.",
     "description": "Beskrivning av applikationen"
   },
   "appDescDetail": {
-    "message": "Allt detta plugin gör är att trycka på gilla-knappen automatiskt åt dig när du tittar på en kanal du prenumererar på. Ingen ansträngning krävs. Kräver ingen inloggning. Alternativt så kan du gilla ALLA videos. Varför? Jag vet inte. Var lite crazy. Du får gärna komma med förslag eller bidra:",
-    "description": "Detaljerad beskrivning för web store-sidan"
+    "message": "Allt detta tillägg gör är att trycka på ogilla-knappen när du tittar på en video från en prenumererad kanal. Ingen ansträngning krävs. Du behöver inte autentisera. Alternativt kan du gilla VARJE video automatiskt. Varför? Jag vet inte. Bli galen. Kom gärna med förslag på nya funktioner eller bidra:",
+    "description": "Detaljbeskrivning för webbbutikssidan"
   },
   "optLikeSub": {
-    "message": "Gilla bara videos från kanaler du prenumererar på"
+    "message": "Gilla endast videor från prenumererade kanaler"
   },
   "optLikeAll": {
-    "message": "Gilla alla videos"
+    "message": "Gilla alla videor"
   },
   "optLikeNone": {
     "message": "Inaktivera"
@@ -28,21 +24,39 @@
     "message": "Gilla direkt"
   },
   "optLikeCustom": {
-    "message": "Gilla efter en stund"
+    "message": "Anpassad timer"
   },
   "optLikePercentage": {
-    "message": "Procent"
+    "message": "Procentandel"
   },
   "optLikeMinutes": {
     "message": "Minuter"
   },
-  "optLikeRandom" :{
-    "message": "Random timer"
+  "optLikeRandom": {
+    "message": "Slumpmässig timer"
+  },
+  "optUseList": {
+    "message": "Använd lista"
+  },
+  "optBlackList": {
+    "message": "Blocklistläge"
+  },
+  "optWhiteList": {
+    "message": "Tillåt listläge"
+  },
+  "optWhiteListWarning": {
+    "message": "⚠️ listan är tom, ingenting kommer att ogillas"
   },
   "linkDonate": {
     "message": "Donera"
   },
   "linkContribute": {
     "message": "Bidra"
+  },
+  "mngName": {
+    "message": "Kanalnamn"
+  },
+  "mngURL": {
+    "message": "Kanals URL"
   }
 }
