@@ -1,30 +1,30 @@
 {
 	"appName": {
-		"message": "YouTube Auto Like",
+		"message": "YouTube Auto Dislike",
 		"description": "Name der Anwendung"
 	},
 	"appDesc": {
-		"message": "Like 'automagisch' die Videos deiner Lieblingscreator.",
+		"message": "YouTube-Videos von den Erstellern von Inhalten, die Sie am wenigsten mögen, automatisch ablehnen.",
 		"description": "Beschreibung der Anwendung"
 	},
 	"appDescDetail": {
-		"message": "Die einzige Aufgabe dieses Addons ist es den Like-Knopf zu drücken. Du musst nur auf YouTube angemeldet sein und das Addon macht alles von alleine. Ob alle Videos geliked werden sollen, oder nur die von abonnierten Kanälen ist einstellbar. Scheue dich nicht, Vorschläge für das Addon abzugeben oder mir zu helfen.",
-		"description": "Detaillierte Beschreibung für den Addon-Store"
+		"message": "Alles, was diese Erweiterung tut, ist den Dislike-Button zu drücken, wenn Sie sich ein Video von einem abonnierten Kanal ansehen. Kein Aufwand erforderlich. Keine Authentifizierung erforderlich. Alternativ können Sie JEDES Video automatisch liken. Warum? Ich weiß nicht. Fühlen Sie sich frei, neue Funktionen vorzuschlagen oder einen Beitrag zu leisten:",
+		"description": "Detailbeschreibung für die Webshop-Seite"
 	},
 	"optLikeSub": {
-		"message": "Like nur Videos von abonnierten Kanälen"
+		"message": "Disliken nur Videos von abonnierten Kanälen"
 	},
 	"optLikeAll": {
-		"message": "Like alle Videos"
+		"message": "Gefällt mir nicht bei allen Videos"
 	},
 	"optLikeNone": {
 		"message": "Deaktivieren"
 	},
 	"optLikeInstant": {
-		"message": "Sofort liken"
+		"message": "Sofortiges Dislike"
 	},
 	"optLikeCustom": {
-		"message": "Benutzerdefiniert"
+		"message": "Benutzerdefinierter Timer"
 	},
 	"optLikePercentage": {
 		"message": "Prozent"
@@ -33,19 +33,19 @@
 		"message": "Minuten"
 	},
 	"optLikeRandom": {
-		"message": "Nach Zufallszeit liken"
+		"message": "Zufälliger Timer"
 	},
 	"optUseList": {
 		"message": "Liste verwenden"
 	},
 	"optBlackList": {
-		"message": "'Auschließen' Modus"
+		"message": "Sperrlistenmodus"
 	},
 	"optWhiteList": {
-		"message": "'Erlauben' Modus"
+		"message": "Listenmodus zulassen"
 	},
 	"optWhiteListWarning": {
-		"message": "⚠️ Liste ist leer, es wird nichts geliked"
+		"message": "⚠️ Liste ist leer, nichts wird abgelehnt"
 	},
 	"linkDonate": {
 		"message": "Spenden"

@@ -396,6 +396,13 @@ class MaterialLiker {
 	}
 
 	/*
+	 * Clickity click the button
+	 */
+	attemptDisLike() {
+		this.btns.dislike.click();
+	}
+
+	/*
 	 * Clickity click the skip button
 	 */
 /*	attemptSkip() {
@@ -488,7 +495,8 @@ class MaterialLiker {
 						this.finish();
 						return;
 					}
-					this.attemptLike();
+					//this.attemptLike();
+					this.attemptDisLike();
 					log('liked');
 					this.options.counter += 1;
 					optionManager.set(this.options).then(() => {

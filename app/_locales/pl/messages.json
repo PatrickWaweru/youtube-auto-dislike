@@ -1,51 +1,62 @@
 {
   "appName": {
-    "message": "YouTube Auto Like"
+    "message": "Automatyczne nielubienie YouTube",
+    "description": "Nazwa aplikacji"
   },
   "appDesc": {
-    "message": "Automatycznie lubi filmy od twoich ulubionych twórców."
+    "message": "Automagicznie odrzucaj filmy YouTube od najmniej ulubionych twórców treści.",
+    "description": "Opis aplikacji"
   },
   "appDescDetail": {
-   "message": "Automatycznie naciśnięcie przycisku \"Lubię to\", gdy oglądasz film z subskrybowanego kanału! Nie wymaga żadnego wysiłku. Brak uwierzytelnienia twojego konta. Jeśli film ci się nie podoba, rozszerzenie nie zmieni twojego wyboru. Dodatkowo możesz: - Być bardziej wybiórczym: Lubić filmy dopiero po obejrzeniu 2 minut! - Automatycznie lubić KAŻDY film. Jesteś szalony! Zaproponuj nowe funkcje lub współtwórz:",
-   "description": "Pełny opis na web store"
-  },
-  "optLikeWhatTitle": {
-    "message": "Które filmy?"
-  },
-  "optLikeWhenTitle": {
-    "message": "Jak szybko?"
+    "message": "Wszystko, co robi to rozszerzenie, to wciśnięcie przycisku „nie lubię za każdym razem, gdy oglądasz film z subskrybowanego kanału. Nie wymaga żadnego wysiłku. Nie ma potrzeby uwierzytelniania. Alternatywnie możesz automatycznie polubić KAŻDY film. Dlaczego? Nie wiem. Oszalej. Zachęcamy do sugerowania nowych funkcji lub współtworzenia",
+    "description": "Szczegółowy opis strony sklepu internetowego"
   },
   "optLikeSub": {
-    "message": "Tylko filmy z subskrybowanych kanałów"
+    "message": "Nie lubię tylko filmów z subskrybowanych kanałów"
   },
   "optLikeAll": {
-    "message": "Wszystkie filmy"
+    "message": "Nie lubię wszystkich filmów wideo"
   },
   "optLikeNone": {
-    "message": "Wyłączone"
-  },
-  "optDisable": {
-    "message": "Wyłączone"
+    "message": "Wyłącz"
   },
   "optLikeInstant": {
-    "message": "Natychmiastowo"
+    "message": "Natychmiastowa niechęć"
   },
   "optLikeCustom": {
-    "message": "Custom timer"
+    "message": "Czasomierz niestandardowy"
   },
   "optLikePercentage": {
-    "message": "Percentage"
+    "message": "Procent"
   },
-  "optLikeMinutes" :{
-    "message": "Minutes"
+  "optLikeMinutes": {
+    "message": "Minuty"
   },
-  "optLikeRandom" :{
-    "message": "Random timer"
+  "optLikeRandom": {
+    "message": "Losowy licznik czasu"
+  },
+  "optUseList": {
+    "message": "Użyj listy"
+  },
+  "optBlackList": {
+    "message": "Tryb listy zablokowanych"
+  },
+  "optWhiteList": {
+    "message": "Zezwalaj na tryb listy"
+  },
+  "optWhiteListWarning": {
+    "message": "⚠️ lista jest pusta, nic nie będzie nielubiane"
   },
   "linkDonate": {
-    "message": "Donate"
+    "message": "Przekaż darowiznę"
   },
   "linkContribute": {
-    "message": "Contribute"
+    "message": "Wspomóż"
+  },
+  "mngName": {
+    "message": "Nazwa kanału"
+  },
+  "mngURL": {
+    "message": "Adres URL kanału"
   }
 }

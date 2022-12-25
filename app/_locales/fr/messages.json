@@ -1,59 +1,60 @@
 {
 	"appName": {
-		"message": "YouTube Auto Like",
+		"message": "Je n'aime pas YouTube automatiquement",
 		"description": "Nom de l'application"
 	},
 	"appDesc": {
-		"message": "Like automatiquement les vidéos YouTube de vos créateurs préférés.",
+		"message": "Je n'aime pas automatiquement les vidéos YouTube de vos créateurs de contenu les moins préférés.",
 		"description": "Description de l'application"
 	},
 	"appDescDetail": {
-		"message": "Ce plugin like automatiquement les vidéos YouTube. Comme ça, vous n'oublierez plus de supporter vos créateurs préférés. Vous pouvez choisir d'aimer toutes les vidéos, seulement des chaînes souscrites ou aucune. Si vous dislikez une vidéo, celle-ci ne sera pas relikée par la suite. Aucune connexion nécessaire. Vous pouvez proposer de nouvelles fonctionnalités ou contribuer au plugin.",
-		"description": "Description detaillée pour la page web du plugin"
+		"message": "Cette extension ne fait que marteler le bouton Je n'aime pas chaque fois que vous regardez une vidéo à partir d'une chaîne abonnée. Aucun effort requis. Pas besoin de s'authentifier. Alternativement, vous pouvez automatiquement aimer CHAQUE vidéo. Pourquoi ? Je ne sais pas. Devenir fou. N'hésitez pas à suggérer de nouvelles fonctionnalités ou à contribuer :",
+		"description": "Description détaillée de la page de la boutique en ligne"
 	},
 	"optLikeSub": {
-		"message": "Liker les vidéos des chaines abonnées"
+		"message": "Je n'aime pas uniquement les vidéos des chaînes auxquelles vous êtes abonné"
 	},
 	"optLikeAll": {
-		"message": "Liker toutes les vidéos"
+		"message": "Je n'aime pas toutes les vidéos"
 	},
 	"optLikeNone": {
 		"message": "Désactiver"
 	},
-	"optLikeInstant" : {
-		"message": "Liker instantanément"
+	"optLikeInstant": {
+		"message": "Je n'aime pas instantanément"
 	},
 	"optLikeCustom": {
-		"message": "Personnaliser"
+		"message": "Minuteur personnalisé"
 	},
 	"optLikePercentage": {
 		"message": "Pourcentage"
 	},
-	"optLikeMinutes" :{
-		"message": "Minutes"
+	"optLikeMinutes": {
+		"message": "minutes"
 	},
-	"optLikeRandom" :{
-		"message": "Minuteur aléatoire"
+	"optLikeRandom": {
+		"message": "Minuterie aléatoire"
 	},
 	"optUseList": {
 		"message": "Utiliser la liste"
 	},
 	"optBlackList": {
-		"message": "Mode liste noire"
+		"message": "Mode liste de blocage"
 	},
 	"optWhiteList": {
-		"message": "Mode liste blanche"
+		"message": "Autoriser le mode liste"
+	},
+	"optWhiteListWarning": {
+		"message": "⚠️ la liste est vide, rien ne sera détesté"
 	},
 	"linkDonate": {
-		"message": "Soutenir",
-		"description" : "Donner de l'argent pour aider le createur du plugin"
+		"message": "Faire un don"
 	},
 	"linkContribute": {
-		"message": "Contribuer",
-		"description" : "Lien pour contribuer au plugin"
+		"message": "Contribuer"
 	},
 	"mngName": {
-		"message": "Nom de la chaîne"
+		"message": "Nom du canal"
 	},
 	"mngURL": {
 		"message": "URL de la chaîne"

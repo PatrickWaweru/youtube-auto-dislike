@@ -1,27 +1,27 @@
 {
 	"appName": {
-		"message": "YouTube Otomatik Beğenme",
-		"description": "Uygulamanın ismi"
+		"message": "YouTube Otomatik Beğenmeme",
+		"description": "Uygulamanın adı"
 	},
 	"appDesc": {
-		"message": "Favori içerik oluşturucularınızın YouTube videolarını otomatik olarak beğenin.",
+		"message": "En sevmediğiniz içerik oluşturucuların YouTube videolarını otomatik olarak beğenmeyin.",
 		"description": "Uygulamanın açıklaması"
 	},
 	"appDescDetail": {
-		"message": "Bu uzantının tek yaptığı, abone olunan bir kanaldan video izlediğinizde beğen düğmesine basmaktır. Hiçbir çaba gerekmez. Kimlik doğrulamaya gerek yok. Alternatif olarak, her videoyu otomatik olarak beğenebilirsiniz. Neden? Bilmiyorum. Yeni özellikler önermekten veya katkıda bulunmaktan çekinmeyin:",
+		"message": "Bu uzantının tek yaptığı, abone olunan bir kanaldan bir video izlediğinizde beğenmeme düğmesine basmaktır. Çaba gerektirmez. Kimlik doğrulamaya gerek yoktur. Alternatif olarak, HER videoyu otomatik olarak beğenebilirsiniz. Neden? Bilmiyorum. Kafayı yeyin. Yeni özellikler önermekten veya katkıda bulunmaktan çekinmeyin:",
 		"description": "Web mağazası sayfası için ayrıntılı açıklama"
 	},
 	"optLikeSub": {
-		"message": "Yalnızca abone olunan kanalların videolarını beğen"
+		"message": "Yalnızca abone olunan kanallardan gelen videoları beğenme"
 	},
 	"optLikeAll": {
-		"message": "Tüm videoları beğen"
+		"message": "Tüm videoları beğenme"
 	},
 	"optLikeNone": {
-		"message": "Devre dışı bırak"
+		"message": "Devre Dışı Bırak"
 	},
 	"optLikeInstant": {
-		"message": "Anında Beğen"
+		"message": "Anında Beğenmeme"
 	},
 	"optLikeCustom": {
 		"message": "Özel zamanlayıcı"
@@ -36,27 +36,27 @@
 		"message": "Rastgele zamanlayıcı"
 	},
 	"optUseList": {
-		"message": "Liste kullan"
+		"message": "Listeyi kullan"
 	},
 	"optBlackList": {
-		"message": "Bloklu liste modu"
+		"message": "Blok listesi modu"
 	},
 	"optWhiteList": {
-		"message": "İzinli liste modu"
+		"message": "Liste moduna izin ver"
 	},
 	"optWhiteListWarning": {
-		"message": "⚠️ liste boş, hiçbir şey beğenilmeyecek"
+		"message": "⚠️liste boş, hiçbir şey beğenilmeyecek"
 	},
 	"linkDonate": {
-		"message": "Bağış"
+		"message": "Bağış yap"
 	},
 	"linkContribute": {
-		"message": "Katkıda bulun"
+		"message": "Katkıda bulunun"
 	},
 	"mngName": {
-		"message": "Kanal İsmi"
+		"message": "Kanal Adı"
 	},
 	"mngURL": {
-		"message": "Kanal URL"
+		"message": "Kanal URL'si"
 	}
 }

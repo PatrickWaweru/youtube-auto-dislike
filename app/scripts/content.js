@@ -127,7 +127,7 @@ function isVideoLoaded() {
 optionManager.get().then((options) => {
 	// set the real log function once options are loaded
 	log = options.debug ? console.log.bind(console) : function () {};
-	log(`youtube auto like ${options.plugin_version} injected`);
+	log(`youtube auto Dislike ${options.plugin_version} injected`);
 	let jsInitChecktimer = null;
 
 	function setEventListeners(evt) {

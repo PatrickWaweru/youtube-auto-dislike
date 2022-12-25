@@ -1,50 +1,62 @@
 {
 	"appName": {
-		"message": "YouTube Auto Like",
-		"description": "El nombre de la applicacion"
-	},
-	"appNamePart2": {
-	"message": "Auto Like",
-	"description": "Nombre de la applicacion despues de 'YouTube'"
+		"message": "No me gusta automático de YouTube",
+		"description": "Nombre de la aplicación"
 	},
 	"appDesc": {
-		"message": "Este plugin like automaticamente los videos de YouTube.",
-		"description": "La descripcion de la application"
+		"message": "Automágicamente no me gustan los videos de YouTube de tus creadores de contenido menos favoritos",
+		"description": "Descripción de la aplicación"
 	},
 	"appDescDetail": {
-	"message": "Este plugin like automáticamente los vídeos de YouTube. Puedes elegir de utilizar el plugin en todos los vídeos o unicamente en los vídeos suscribidos,  tambien puedes desactivar el plugin. Puedes poner un dislike en un vídeo, despues el plugin no pondra like automáticamente. Ninguna conexión necesitada. Puedes señalar problemas, proponer ideos y contribuir.",
-	"description": "Completa descripcion para la pagina web"
+		"message": "Todo lo que hace esta extensión es martillar el botón No me gusta cada vez que miras un video de un canal suscrito. No requiere esfuerzo. No es necesario autenticarse. Alternativamente, puedes indicar que te gusta TODOS los videos automáticamente. ¿Por qué? No sé. Vuélvete loco. Siéntase libre de sugerir nuevas características o contribuir:",
+		"description": "Descripción detallada de la página de la tienda web"
 	},
 	"optLikeSub": {
-		"message": "Like los videos de los canales suscritos"
+		"message": "No me gusta solo videos de canales suscritos"
 	},
 	"optLikeAll": {
-		"message": "Like todos los videos"
+		"message": "No me gusta todos los videos"
 	},
 	"optLikeNone": {
-		"message": "Desactivar"
+		"message": "Deshabilitar"
 	},
-	"optLikeInstant" : {
-		"message": "Inmediato Like"
+	"optLikeInstant": {
+		"message": "No me gusta instantáneo"
 	},
 	"optLikeCustom": {
-		"message": "Customizado timer"
+		"message": "Temporizador personalizado"
 	},
 	"optLikePercentage": {
 		"message": "Porcentaje"
 	},
-	"optLikeMinutes" :{
+	"optLikeMinutes": {
 		"message": "Minutos"
 	},
-	"optLikeRandom" :{
-		"message": "Random timer"
+	"optLikeRandom": {
+		"message": "Temporizador aleatorio"
+	},
+	"optUseList": {
+		"message": "Lista de uso"
+	},
+	"optBlackList": {
+		"message": "Modo de lista de bloqueo"
+	},
+	"optWhiteList": {
+		"message": "Modo de lista de permitidos"
+	},
+	"optWhiteListWarning": {
+		"message": "⚠️ la lista está vacía, nada será desagradable"
 	},
 	"linkDonate": {
-	"message": "Dar",
-	"description": "Vinculo para ayudar el creador del plugin"
+		"message": "Donar"
 	},
 	"linkContribute": {
-	"message": "Contribuir",
-	"description" : "Vinculo para proponer cambios"
+		"message": "Contribuir"
+	},
+	"mngName": {
+		"message": "Nombre del canal"
+	},
+	"mngURL": {
+		"message": "URL del canal"
 	}
 }
