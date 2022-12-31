@@ -85,6 +85,17 @@ app/scripts/modules/liker-material.js
 2. Replace the use of attemptLike() with attemptDisLike()
 ```
 
+## Optional add the extension id into the manifest.json
+
+```
+	"browser_specific_settings": {
+	    "gecko": {
+	        "id": "{xxxxxxx}",
+	        "strict_min_version": "57.0"
+	    }
+	},
+```
+
 ## Extra Changes
 
 ```
