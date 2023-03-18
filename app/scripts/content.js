@@ -28,7 +28,7 @@ browser.runtime.onMessage.addListener( function(msg, sender, sendResponse) {
 });
 
 function startLikerProcess(options) {
-	var IS_PAPER = document.querySelector("ytd-subscribe-button-renderer[modern]") !== null;
+	var IS_PAPER = document.querySelector("ytd-subscribe-button-renderer") !== null;
 	window.IS_PAPER = IS_PAPER;
 	let liker = null;
 	if (IS_PAPER) {
