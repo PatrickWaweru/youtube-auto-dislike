@@ -290,8 +290,17 @@ class PaperLiker {
 	 *                   the current video's channel
 	 */
 	isUserSubscribed() {
-		let subscribeButton = document.querySelector("ytd-subscribe-button-renderer button.yt-spec-button-shape-next--tonal")
-		return subscribeButton !== null && isVisible(subscribeButton);
+		let subscribeButtons = document.querySelectorAll("ytd-subscribe-button-renderer :not(*[hidden]) button.yt-spec-button-shape-next--tonal")
+		// the ':not(*[hidden]) ytd-subscribe-button-renderer :not(*[hidden]) button.yt-spec-button-shape-next--tonal'
+		// does not work, thus use isHidden
+		let buttonExist = subscribeButtons.length > 0
+		log("sub button exist: ", buttonExist)
+		if (!buttonExist) return false
+
+		let subscribeButton = Array.from(subscribeButtons).find(isNotHidden)
+		log("sub button not hidden: ", subscribeButton)
+		return subscribeButton !== undefined;
+		
 	}
 
 	shouldLike() {
