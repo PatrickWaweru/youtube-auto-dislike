@@ -290,7 +290,8 @@ class PaperLiker {
 	 *                   the current video's channel
 	 */
 	isUserSubscribed() {
-		return document.querySelector("ytd-subscribe-button-renderer button.yt-spec-button-shape-next--tonal") !== null;
+		let subscribeButton = document.querySelector("ytd-subscribe-button-renderer button.yt-spec-button-shape-next--tonal")
+		return subscribeButton !== null && isVisible(subscribeButton);
 	}
 
 	shouldLike() {
@@ -301,7 +302,7 @@ class PaperLiker {
 			return false;
 		}
 
-		let mode_should_like = "";
+		let mode_should_like = false;
 		if (this.options.like_what === "subscribed") {
 			log("Sub mode");
 			mode_should_like = this.isUserSubscribed();	

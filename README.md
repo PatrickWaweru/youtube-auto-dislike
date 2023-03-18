@@ -135,3 +135,15 @@ app/scripts/modules/liker-material.js
         modified:   assets/promo/promo-medium.jpg
         modified:   assets/promo/promo-small.jpg
 ```
+
+## Continous Developement
+```
+0468c5f07f3b28784c3f1c843da10dba1117e039 - Feb 5 2023 - 
+7f17aae27bd50b8e543046eecdebb5a5a1f08bd9 - Feb 6 2023 -
+48b2da72801a8f02ade78a9fedca0e26989f4147 - Feb 6 2023 -
+cdb00c11eda9b0c54bdecfa03005dee215c2745b - Feb 6 2023 -
+42f674561d1b32e5afcc8e91192fb87602e7775f - Mar 17 2023 -
+0d6790384c3983cec917abeefcd7b4477fb0a7a0 - Mar 18 2023 -
+4e4d51f7b5b0025b3928d3ee2711c056fb343404 - Mar 18 2023 -
+
+```
