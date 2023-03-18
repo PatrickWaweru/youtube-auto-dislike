@@ -94,3 +94,18 @@ async function isInList(creator) {
 	console.log("isInList return", in_list)
 	return in_list;
 }
+
+function isHidden(node) {
+	// if reach root html
+	if (node === document) return false;
+
+	if (node.hasAttribute("hidden")) {
+		return true;
+	} else {
+		return isHidden(node.parentNode);
+	}
+}
+
+function isNotHidden(node){
+	return !isHidden(node);
+}
