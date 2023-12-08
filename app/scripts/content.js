@@ -119,7 +119,9 @@ function isVideoLoaded() {
   return (
     document.querySelector(`ytd-watch-flexy[video-id='${videoId}']`) !== null ||
     // mobile: no video-id attribute
-    document.querySelector('#player[loading="false"]:not([hidden])') !== null
+    document.querySelector('#player[loading="false"]:not([hidden])') !== null ||
+    // new: layout 08/2023
+    document.querySelector(`ytd-watch-grid[video-id='${videoId}']`) !== null
   );
 }
 

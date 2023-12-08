@@ -96,6 +96,14 @@ class PaperLiker {
 		likeElement = actionsElements.querySelector("#segmented-like-button button");
 		dislikeElement = actionsElements.querySelector("#segmented-dislike-button button");
 
+		// update youtube paper layout 30/11/2023
+		if (likeElement === null) {
+			likeElement = actionsElements.querySelector(".YtLikeButtonViewModelHost button");
+		}
+		if (dislikeElement === null) {
+			dislikeElement = actionsElements.querySelector(".YtDislikeButtonViewModelHost button");
+		}
+
 		return [likeElement, dislikeElement];
 	}
 

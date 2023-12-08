@@ -99,7 +99,7 @@ function isHidden(node) {
 	// if reach root html
 	if (node === document) return false;
 
-	if (node.hasAttribute("hidden")) {
+	if (node.hasAttribute("hidden") || node.hasAttribute("invisible")) {
 		return true;
 	} else {
 		return isHidden(node.parentNode);
