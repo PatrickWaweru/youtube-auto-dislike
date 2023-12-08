@@ -69,9 +69,9 @@ function getCreatorFromVideo() {
 	let name = null;
 	let URL = null;
 	if (window.IS_PAPER) {
-		creatorBlock = document.querySelector("ytd-video-owner-renderer[modern-metapanel]");
-		name = creatorBlock.querySelector("ytd-channel-name#channel-name a").textContent;
-		URL = creatorBlock.querySelector("ytd-channel-name#channel-name a").href;
+		creatorBlock = document.querySelector("ytd-video-owner-renderer .ytd-channel-name #text a");
+		name = creatorBlock.textContent;
+		URL = creatorBlock.href;
 	} else {
 		creatorBlock = document.querySelector("#container.ytd-video-secondary-info-renderer");
 		name = creatorBlock.querySelector("yt-formatted-string.ytd-channel-name>a").textContent;
