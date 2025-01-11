@@ -2,10 +2,10 @@
  * Likes YouTube videos.
  * For the newer paper design layout
  */
-class PaperLiker extends MetaLiker {
+class GridLiker extends MetaLiker {
 
 	VIDEO_SELECTOR = ".video-stream";
-	ACTION_ELEMENTS_SELECTOR = "ytd-menu-renderer.ytd-watch-metadata segmented-like-dislike-button-view-model";
+	ACTION_ELEMENTS_SELECTOR = "#secondary-inner ytd-watch-metadata ytd-menu-renderer segmented-like-dislike-button-view-model";
 	LIKE_SELECTOR = "like-button-view-model button";
 	DISLIKE_SELECTOR = "dislike-button-view-model button";
 	LIVE_SELECTOR = ".ytp-live-badge[disabled='']";
