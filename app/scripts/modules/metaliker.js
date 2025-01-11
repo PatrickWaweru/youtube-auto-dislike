@@ -87,7 +87,7 @@ class MetaLiker {
 		if (likeElement === null || dislikeElement === null) {
 			log("Cannot find buttons");
 		}
-		log("got buttons");
+		log("got like and dislike buttons");
 		return [likeElement, dislikeElement];
 	}
 
@@ -302,10 +302,17 @@ class MetaLiker {
 	}
 
 	/*
-	 * Clickity click the button
+	 * Clickity click the like button
 	 */
 	attemptLike() {
 		this.getButtons()[0].click();
+	}
+
+	/*
+	 * Clickity click the dislike button
+	 */
+	attemptDisLike() {
+		this.getButtons()[1].click();
 	}
 
 	/**
@@ -393,7 +400,8 @@ class MetaLiker {
 						this.finish();
 						return;
 					}
-					this.attemptLike();
+					// this.attemptLike();  // Patnox change from like to dislike
+					this.attemptDisLike();
 					log('liked');
 					this.options.counter += 1;
 					optionManager.set(this.options).then(() => {
