@@ -12,4 +12,5 @@ var OPTIONS = {
 	debug: false,
 	debug_displayed: false,
 	counter: 0,
+	notify_update: true,
 }

@@ -15,7 +15,7 @@ function handleInstalled(details) {
 	let optionManager = new OptionManager(OPTIONS);
 	optionManager.get().then((options) => {
 		// if this is a new version display patch note
-		if ( isNewVersion(options.plugin_version, browser.runtime.getManifest().version) ) {
+		if ( options.notify_update && isNewVersion(options.plugin_version, browser.runtime.getManifest().version) ) {
 			browser.tabs.create({
 				url: "update_info.html"
 			});

@@ -233,6 +233,9 @@ docReady(function() {
 		if (options.use_list)
 			document.getElementById("use_list").setAttribute("checked", "checked");
 
+		if (options.notify_update)
+			document.getElementById("notify_update").setAttribute("checked", "checked");
+
 		if (options.debug)
 			document.getElementById("debug").setAttribute("checked", "checked");
 

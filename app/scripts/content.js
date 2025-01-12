@@ -29,15 +29,18 @@ browser.runtime.onMessage.addListener( function(msg, sender, sendResponse) {
 
 function startLikerProcess(options) {
 	var IS_PAPER = document.querySelector("ytd-subscribe-button-renderer") !== null;
+	var IS_GRID = document.querySelectorAll("ytd-watch-grid").length !== 0;
 	window.IS_PAPER = IS_PAPER;
+	window.IS_GRID = IS_GRID;
 	let liker = null;
-	if (IS_PAPER) {
+	if (IS_GRID) {
+		log("grid liker init");
+		liker = new GridLiker(options);
+	} else if (IS_PAPER) {
 		log("paper liker init");
 		liker = new PaperLiker(options);
-	} else {
-		log("material liker init");
-		liker = new MaterialLiker(options);
 	}
+
 	if (IS_CLASSIC) {
 		log("Classic youtube detected");
 		liker.init();
@@ -119,7 +122,9 @@ function isVideoLoaded() {
   return (
     document.querySelector(`ytd-watch-flexy[video-id='${videoId}']`) !== null ||
     // mobile: no video-id attribute
-    document.querySelector('#player[loading="false"]:not([hidden])') !== null
+    document.querySelector('#player[loading="false"]:not([hidden])') !== null ||
+    // new: layout 08/2023
+    document.querySelector(`ytd-watch-grid[video-id='${videoId}']`) !== null
   );
 }
 

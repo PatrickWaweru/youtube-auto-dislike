@@ -58,5 +58,8 @@
 	},
 	"mngURL": {
 		"message": "Channel URL"
+	},
+	"optNotifyUpdate": {
+		"message": "Notify Update"
 	}
 }
